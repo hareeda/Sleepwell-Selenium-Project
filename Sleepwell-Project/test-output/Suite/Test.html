@@ -1,0 +1,495 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>64/2/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 25 22:56:19 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>1077 seconds (1077054 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ust.testcases.navigation.PillowsTest.verifyContourTechPillowsButton()'><b>verifyContourTechPillowsButton</b><br>Test class: com.ust.testcases.navigation.PillowsTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.ust.testcases.navigation.PillowsTest.verifyContourTechPillowsButton(PillowsTest.java:63)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace190684958", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace190684958'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.ust.testcases.navigation.PillowsTest.verifyContourTechPillowsButton(PillowsTest.java:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>com.ust.testcases.navigation.PillowsTest@5a37d3ed</td></tr>
+<tr>
+<td title='com.ust.testcases.navigation.PillowsTest.verifyRegularTechPillowsButton()'><b>verifyRegularTechPillowsButton</b><br>Test class: com.ust.testcases.navigation.PillowsTest</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at com.ust.testcases.navigation.PillowsTest.verifyRegularTechPillowsButton(PillowsTest.java:52)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace936810913", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace936810913'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at org.testng.Assert.assertTrue(Assert.java:67)
+	at com.ust.testcases.navigation.PillowsTest.verifyRegularTechPillowsButton(PillowsTest.java:52)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>1</td>
+<td>com.ust.testcases.navigation.PillowsTest@5a37d3ed</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.ust.testcases.forms.InstitutionalEnquiryTest.verifyNavigatetoForm()'><b>verifyNavigatetoForm</b><br>Test class: com.ust.testcases.forms.InstitutionalEnquiryTest</td>
+<td></td>
+<td>23</td>
+<td>com.ust.testcases.forms.InstitutionalEnquiryTest@6b6776cb</td></tr>
+<tr>
+<td title='com.ust.testcases.dropdown.MattressDropDownTest.verifyMattressDropdownShopByPrice()'><b>verifyMattressDropdownShopByPrice</b><br>Test class: com.ust.testcases.dropdown.MattressDropDownTest</td>
+<td></td>
+<td>0</td>
+<td>com.ust.testcases.dropdown.MattressDropDownTest@43599640</td></tr>
+<tr>
+<td title='com.ust.testcases.general.CartTest.verifyNavigatetoCartPage()'><b>verifyNavigatetoCartPage</b><br>Test class: com.ust.testcases.general.CartTest</td>
+<td></td>
+<td>3</td>
+<td>com.ust.testcases.general.CartTest@1863d2fe</td></tr>
+<tr>
+<td title='com.ust.testcases.account.MyProfileTest.verifyMyProfileLoggedIn()'><b>verifyMyProfileLoggedIn</b><br>Test class: com.ust.testcases.account.MyProfileTest</td>
+<td></td>
+<td>3</td>
+<td>com.ust.testcases.account.MyProfileTest@7b7fdc8</td></tr>
+<tr>
+<td title='com.ust.testcases.forms.InstitutionalEnquiryTest.verifyBlankForm()'><b>verifyBlankForm</b><br>Test class: com.ust.testcases.forms.InstitutionalEnquiryTest</td>
+<td></td>
+<td>0</td>
+<td>com.ust.testcases.forms.InstitutionalEnquiryTest@6b6776cb</td></tr>
+<tr>
+<td title='com.ust.testcases.dropdown.MattressDropDownTest.verifyMattressDropdownClicking()'><b>verifyMattressDropdownClicking</b><br>Test class: com.ust.testcases.dropdown.MattressDropDownTest</td>
+<td></td>
+<td>19</td>
+<td>com.ust.testcases.dropdown.MattressDropDownTest@43599640</td></tr>
+<tr>
+<td title='com.ust.testcases.dropdown.MattressDropDownTest.verifyLinksUnderShopByTech()'><b>verifyLinksUnderShopByTech</b><br>Test class: com.ust.testcases.dropdown.MattressDropDownTest</td>
+<td></td>
+<td>0</td>
+<td>com.ust.testcases.dropdown.MattressDropDownTest@43599640</td></tr>
+<tr>
+<td title='com.ust.runner.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.ust.runner.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying that after entering all details the call back form is submitted successfully", "Verifying the call back form filling in saathi page of"</td>
+<td></td>
+<td>50</td>
+<td>com.ust.runner.CucumberRunner@f14a7d4</td></tr>
+<tr>
+<td title='com.ust.testcases.general.LocationTest.verifyEnteringPincodeandSearching()'><b>verifyEnteringPincodeandSearching</b><br>Test class: com.ust.testcases.general.LocationTest</td>
+<td></td>
+<td>25</td>
+<td>com.ust.testcases.general.LocationTest@55c53a33</td></tr>
+<tr>
+<td title='com.ust.testcases.general.CartTest.navigateToReversibleMattressPage()'><b>navigateToReversibleMattressPage</b><br>Test class: com.ust.testcases.general.CartTest</td>
+<td></td>
+<td>22</td>
+<td>com.ust.testcases.general.CartTest@1863d2fe</td></tr>
+<tr>
+<td title='com.ust.testcases.mattresses.MattressFilterTest.verifyPriceBased()'><b>verifyPriceBased</b><br>Test class: com.ust.testcases.mattresses.MattressFilterTest</td>
+<td></td>
+<td>7</td>
+<td>com.ust.testcases.mattresses.MattressFilterTest@797b0699</td></tr>
+<tr>
+<td title='com.ust.testcases.user.RegistrationTest.verifyNavigateToRegistrationPage()'><b>verifyNavigateToRegistrationPage</b><br>Test class: com.ust.testcases.user.RegistrationTest</td>
+<td></td>
+<td>26</td>
+<td>com.ust.testcases.user.RegistrationTest@6b58b9e9</td></tr>
+<tr>
+<td title='com.ust.testcases.navigation.FaqTest.verifyNavigateToFAQ()'><b>verifyNavigateToFAQ</b><br>Test class: com.ust.testcases.navigation.FaqTest</td>
+<td></td>
+<td>22</td>
+<td>com.ust.testcases.navigation.FaqTest@26df6e3a</td></tr>
+<tr>
+<td title='com.ust.testcases.user.RegistrationTest.verifyBlankFormSubmission()'><b>verifyBlankFormSubmission</b><br>Test class: com.ust.testcases.user.RegistrationTest</td>
+<td></td>
+<td>0</td>
+<td>com.ust.testcases.user.RegistrationTest@6b58b9e9</td></tr>
+<tr>
+<td title='com.ust.runner.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.ust.runner.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Invalid data displays appropriate error messages", "Warranty Registration"</td>
+<td></td>
+<td>39</td>
+<td>com.ust.runner.CucumberRunner@f14a7d4</td></tr>
+<tr>
+<td title='com.ust.testcases.dropdown.MattressDropDownTest.verifyLinksUnderShopByUser()'><b>verifyLinksUnderShopByUser</b><br>Test class: com.ust.testcases.dropdown.MattressDropDownTest</td>
+<td></td>
+<td>0</td>
+<td>com.ust.testcases.dropdown.MattressDropDownTest@43599640</td></tr>
+<tr>
+<td title='com.ust.testcases.user.LoginTest.verifyNegativeLogin()'><b>verifyNegativeLogin</b><br>Test class: com.ust.testcases.user.LoginTest<br>Parameters: suresh@gmail.com, Suresh@123</td>
+<td></td>
+<td>2</td>
+<td>com.ust.testcases.user.LoginTest@4a3631f8</td></tr>
+<tr>
+<td title='com.ust.testcases.general.SocialMediaLinkTest.verifyYoutubeLink()'><b>verifyYoutubeLink</b><br>Test class: com.ust.testcases.general.SocialMediaLinkTest</td>
+<td></td>
+<td>10</td>
+<td>com.ust.testcases.general.SocialMediaLinkTest@544d57e</td></tr>
+<tr>
+<td title='com.ust.testcases.dropdown.MattressDropDownTest.verifyMattressDropdownShopBySize()'><b>verifyMattressDropdownShopBySize</b><br>Test class: com.ust.testcases.dropdown.MattressDropDownTest</td>
+<td></td>
+<td>0</td>
+<td>com.ust.testcases.dropdown.MattressDropDownTest@43599640</td></tr>
+<tr>
+<td title='com.ust.testcases.user.LoginTest.verifyPositiveLogin()'><b>verifyPositiveLogin</b><br>Test class: com.ust.testcases.user.LoginTest<br>Parameters: snikhilkumar355@gmail.com, Nikhil@22</td>
+<td></td>
+<td>8</td>
+<td>com.ust.testcases.user.LoginTest@4a3631f8</td></tr>
+<tr>
+<td title='com.ust.testcases.mattresses.MattressCompareTest.verifySelectingMattresses1()'><b>verifySelectingMattresses1</b><br>Test class: com.ust.testcases.mattresses.MattressCompareTest</td>
+<td></td>
+<td>3</td>
+<td>com.ust.testcases.mattresses.MattressCompareTest@53b7f657</td></tr>
+<tr>
+<td title='com.ust.testcases.dropdown.MyAccountDropDownTest.verifyLinksUnderMyAccount()'><b>verifyLinksUnderMyAccount</b><br>Test class: com.ust.testcases.dropdown.MyAccountDropDownTest</td>
+<td></td>
+<td>0</td>
+<td>com.ust.testcases.dropdown.MyAccountDropDownTest@1f81aa00</td></tr>
+<tr>
+<td title='com.ust.runner.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.ust.runner.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying that error message is shown if invalid city is given", "Verifying the find showroom feature in the sleepwell mattress website."</td>
+<td></td>
+<td>32</td>
+<td>com.ust.runner.CucumberRunner@f14a7d4</td></tr>
+<tr>
+<td title='com.ust.testcases.navigation.FaqTest.verifyFaqWelcomeText()'><b>verifyFaqWelcomeText</b><br>Test class: com.ust.testcases.navigation.FaqTest</td>
+<td></td>
+<td>0</td>
+<td>com.ust.testcases.navigation.FaqTest@26df6e3a</td></tr>
+<tr>
+<td title='com.ust.testcases.user.LoginTest.verifyNegativeLogin()'><b>verifyNegativeLogin</b><br>Test class: com.ust.testcases.user.LoginTest<br>Parameters: jack@gmail.com, Jacksss@1234567</td>
+<td></td>
+<td>2</td>
+<td>com.ust.testcases.user.LoginTest@4a3631f8</td></tr>
+<tr>
+<td title='com.ust.testcases.user.LoginTest.verifyNavigateToLoginPage()'><b>verifyNavigateToLoginPage</b><br>Test class: com.ust.testcases.user.LoginTest</td>
+<td></td>
+<td>22</td>
+<td>com.ust.testcases.user.LoginTest@4a3631f8</td></tr>
+<tr>
+<td title='com.ust.testcases.general.SearchTest.verifySearchResult()'><b>verifySearchResult</b><br>Test class: com.ust.testcases.general.SearchTest</td>
+<td></td>
+<td>2</td>
+<td>com.ust.testcases.general.SearchTest@1787bc24</td></tr>
+<tr>
+<td title='com.ust.testcases.general.CartTest.verifyNavigatetoCheckoutPage()'><b>verifyNavigatetoCheckoutPage</b><br>Test class: com.ust.testcases.general.CartTest</td>
+<td></td>
+<td>4</td>
+<td>com.ust.testcases.general.CartTest@1863d2fe</td></tr>
+<tr>
+<td title='com.ust.testcases.general.SocialMediaLinkTest.verifyTwitterLink()'><b>verifyTwitterLink</b><br>Test class: com.ust.testcases.general.SocialMediaLinkTest</td>
+<td></td>
+<td>5</td>
+<td>com.ust.testcases.general.SocialMediaLinkTest@544d57e</td></tr>
+<tr>
+<td title='com.ust.testcases.user.LoginTest.verifyPositiveLogin()'><b>verifyPositiveLogin</b><br>Test class: com.ust.testcases.user.LoginTest<br>Parameters: alinass@gmail.com, Hareeda@1234567</td>
+<td></td>
+<td>6</td>
+<td>com.ust.testcases.user.LoginTest@4a3631f8</td></tr>
+<tr>
+<td title='com.ust.runner.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.ust.runner.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying that the submit button is disabled if no details are entered.", "Verifying the call back form filling in saathi page of"</td>
+<td></td>
+<td>36</td>
+<td>com.ust.runner.CucumberRunner@f14a7d4</td></tr>
+<tr>
+<td title='com.ust.testcases.user.LoginTest.verifyNegativeLogin()'><b>verifyNegativeLogin</b><br>Test class: com.ust.testcases.user.LoginTest<br>Parameters: nikhil123@gmail.com, Nikhil@12345678</td>
+<td></td>
+<td>2</td>
+<td>com.ust.testcases.user.LoginTest@4a3631f8</td></tr>
+<tr>
+<td title='com.ust.testcases.navigation.PillowsTest.verifyNavigateToPillowsPage()'><b>verifyNavigateToPillowsPage</b><br>Test class: com.ust.testcases.navigation.PillowsTest</td>
+<td></td>
+<td>22</td>
+<td>com.ust.testcases.navigation.PillowsTest@5a37d3ed</td></tr>
+<tr>
+<td title='com.ust.runner.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.ust.runner.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying that after entering all details the form is submitted successfully", "Verifying the contact us form filling in saathi page of"</td>
+<td></td>
+<td>37</td>
+<td>com.ust.runner.CucumberRunner@f14a7d4</td></tr>
+<tr>
+<td title='com.ust.runner.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.ust.runner.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying that after entering all details the form is submitted successfully", "Verifying the contact us form filling in saathi page of"</td>
+<td></td>
+<td>38</td>
+<td>com.ust.runner.CucumberRunner@f14a7d4</td></tr>
+<tr>
+<td title='com.ust.runner.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.ust.runner.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the sleepwell mattress store near to the given location", "Verifying the find showroom feature in the sleepwell mattress website."</td>
+<td></td>
+<td>34</td>
+<td>com.ust.runner.CucumberRunner@f14a7d4</td></tr>
+<tr>
+<td title='com.ust.testcases.mattresses.MattressCompareTest.verifySelectingMattresses2()'><b>verifySelectingMattresses2</b><br>Test class: com.ust.testcases.mattresses.MattressCompareTest</td>
+<td></td>
+<td>4</td>
+<td>com.ust.testcases.mattresses.MattressCompareTest@53b7f657</td></tr>
+<tr>
+<td title='com.ust.runner.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.ust.runner.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify New Link Navigation and Content", "Verify clicking New link takes us to new products page."</td>
+<td></td>
+<td>28</td>
+<td>com.ust.runner.CucumberRunner@f14a7d4</td></tr>
+<tr>
+<td title='com.ust.testcases.general.SearchTest.verifyBlankSearch()'><b>verifyBlankSearch</b><br>Test class: com.ust.testcases.general.SearchTest</td>
+<td></td>
+<td>20</td>
+<td>com.ust.testcases.general.SearchTest@1787bc24</td></tr>
+<tr>
+<td title='com.ust.runner.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.ust.runner.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User encounters a server error", "Verify appropriate error message for server error"</td>
+<td></td>
+<td>30</td>
+<td>com.ust.runner.CucumberRunner@f14a7d4</td></tr>
+<tr>
+<td title='com.ust.runner.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.ust.runner.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying that after entering all details the call back form is submitted successfully", "Verifying the call back form filling in saathi page of"</td>
+<td></td>
+<td>41</td>
+<td>com.ust.runner.CucumberRunner@f14a7d4</td></tr>
+<tr>
+<td title='com.ust.testcases.forms.InstitutionalEnquiryTest.verifyInstitutionalFormSubmission()'><b>verifyInstitutionalFormSubmission</b><br>Test class: com.ust.testcases.forms.InstitutionalEnquiryTest</td>
+<td></td>
+<td>7</td>
+<td>com.ust.testcases.forms.InstitutionalEnquiryTest@6b6776cb</td></tr>
+<tr>
+<td title='com.ust.testcases.general.CartTest.verifyProductAdding()'><b>verifyProductAdding</b><br>Test class: com.ust.testcases.general.CartTest</td>
+<td></td>
+<td>17</td>
+<td>com.ust.testcases.general.CartTest@1863d2fe</td></tr>
+<tr>
+<td title='com.ust.testcases.user.LoginTest.guestLogin()'><b>guestLogin</b><br>Test class: com.ust.testcases.user.LoginTest</td>
+<td></td>
+<td>3</td>
+<td>com.ust.testcases.user.LoginTest@4a3631f8</td></tr>
+<tr>
+<td title='com.ust.testcases.dropdown.MyAccountDropDownTest.verifyMyAccountDropdownClicking()'><b>verifyMyAccountDropdownClicking</b><br>Test class: com.ust.testcases.dropdown.MyAccountDropDownTest</td>
+<td></td>
+<td>19</td>
+<td>com.ust.testcases.dropdown.MyAccountDropDownTest@1f81aa00</td></tr>
+<tr>
+<td title='com.ust.runner.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.ust.runner.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying that after entering all details the call back form is submitted successfully", "Verifying the call back form filling in saathi page of"</td>
+<td></td>
+<td>38</td>
+<td>com.ust.runner.CucumberRunner@f14a7d4</td></tr>
+<tr>
+<td title='com.ust.runner.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.ust.runner.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "To verify that user navigates to the warranty policy page on clicking warranty link.", "Verifying the Warranty Link Functionality"</td>
+<td></td>
+<td>26</td>
+<td>com.ust.runner.CucumberRunner@f14a7d4</td></tr>
+<tr>
+<td title='com.ust.testcases.general.SocialMediaLinkTest.verifyFacebookLink()'><b>verifyFacebookLink</b><br>Test class: com.ust.testcases.general.SocialMediaLinkTest</td>
+<td></td>
+<td>22</td>
+<td>com.ust.testcases.general.SocialMediaLinkTest@544d57e</td></tr>
+<tr>
+<td title='com.ust.testcases.mattresses.MattressFilterTest.verifyUserBased()'><b>verifyUserBased</b><br>Test class: com.ust.testcases.mattresses.MattressFilterTest</td>
+<td></td>
+<td>6</td>
+<td>com.ust.testcases.mattresses.MattressFilterTest@797b0699</td></tr>
+<tr>
+<td title='com.ust.testcases.mattresses.MattressCompareTest.navigateToMattressComparisonPage()'><b>navigateToMattressComparisonPage</b><br>Test class: com.ust.testcases.mattresses.MattressCompareTest</td>
+<td></td>
+<td>21</td>
+<td>com.ust.testcases.mattresses.MattressCompareTest@53b7f657</td></tr>
+<tr>
+<td title='com.ust.testcases.general.SocialMediaLinkTest.verifyInstagramLink()'><b>verifyInstagramLink</b><br>Test class: com.ust.testcases.general.SocialMediaLinkTest</td>
+<td></td>
+<td>4</td>
+<td>com.ust.testcases.general.SocialMediaLinkTest@544d57e</td></tr>
+<tr>
+<td title='com.ust.testcases.user.LoginTest.verifyPositiveLogin()'><b>verifyPositiveLogin</b><br>Test class: com.ust.testcases.user.LoginTest<br>Parameters: aliya@gmail.com, aliya1234567891</td>
+<td></td>
+<td>7</td>
+<td>com.ust.testcases.user.LoginTest@4a3631f8</td></tr>
+<tr>
+<td title='com.ust.testcases.general.CartTest.verifyAddingandRemovingQuantityofSelected()'><b>verifyAddingandRemovingQuantityofSelected</b><br>Test class: com.ust.testcases.general.CartTest</td>
+<td></td>
+<td>4</td>
+<td>com.ust.testcases.general.CartTest@1863d2fe</td></tr>
+<tr>
+<td title='com.ust.testcases.dropdown.MattressDropDownTest.verifyLinksUnderShopByNeed()'><b>verifyLinksUnderShopByNeed</b><br>Test class: com.ust.testcases.dropdown.MattressDropDownTest</td>
+<td></td>
+<td>0</td>
+<td>com.ust.testcases.dropdown.MattressDropDownTest@43599640</td></tr>
+<tr>
+<td title='com.ust.testcases.general.LocationTest.verifySelectingCityandSearching()'><b>verifySelectingCityandSearching</b><br>Test class: com.ust.testcases.general.LocationTest</td>
+<td></td>
+<td>6</td>
+<td>com.ust.testcases.general.LocationTest@55c53a33</td></tr>
+<tr>
+<td title='com.ust.testcases.navigation.PillowsTest.verifyFibrePillowsButton()'><b>verifyFibrePillowsButton</b><br>Test class: com.ust.testcases.navigation.PillowsTest</td>
+<td></td>
+<td>1</td>
+<td>com.ust.testcases.navigation.PillowsTest@5a37d3ed</td></tr>
+<tr>
+<td title='com.ust.testcases.mattresses.MattressFilterTest.verifyTechBased()'><b>verifyTechBased</b><br>Test class: com.ust.testcases.mattresses.MattressFilterTest</td>
+<td></td>
+<td>7</td>
+<td>com.ust.testcases.mattresses.MattressFilterTest@797b0699</td></tr>
+<tr>
+<td title='com.ust.testcases.mattresses.MattressFilterTest.verifyNeedBased()'><b>verifyNeedBased</b><br>Test class: com.ust.testcases.mattresses.MattressFilterTest</td>
+<td></td>
+<td>25</td>
+<td>com.ust.testcases.mattresses.MattressFilterTest@797b0699</td></tr>
+<tr>
+<td title='com.ust.testcases.mattresses.MattressFilterTest.verifySizeBased()'><b>verifySizeBased</b><br>Test class: com.ust.testcases.mattresses.MattressFilterTest</td>
+<td></td>
+<td>10</td>
+<td>com.ust.testcases.mattresses.MattressFilterTest@797b0699</td></tr>
+<tr>
+<td title='com.ust.testcases.general.CartTest.verifyDeletingProductFromCart()'><b>verifyDeletingProductFromCart</b><br>Test class: com.ust.testcases.general.CartTest</td>
+<td></td>
+<td>20</td>
+<td>com.ust.testcases.general.CartTest@1863d2fe</td></tr>
+<tr>
+<td title='com.ust.runner.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.ust.runner.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verifying that the submit button is disabled if no details is entered.", "Verifying the contact us form filling in saathi page of"</td>
+<td></td>
+<td>33</td>
+<td>com.ust.runner.CucumberRunner@f14a7d4</td></tr>
+<tr>
+<td title='com.ust.testcases.account.MyProfileTest.verifyMyProfile()'><b>verifyMyProfile</b><br>Test class: com.ust.testcases.account.MyProfileTest</td>
+<td></td>
+<td>30</td>
+<td>com.ust.testcases.account.MyProfileTest@7b7fdc8</td></tr>
+<tr>
+<td title='com.ust.testcases.general.SearchTest.verifyPartialMatchSearchResult()'><b>verifyPartialMatchSearchResult</b><br>Test class: com.ust.testcases.general.SearchTest</td>
+<td></td>
+<td>3</td>
+<td>com.ust.testcases.general.SearchTest@1787bc24</td></tr>
+<tr>
+<td title='com.ust.runner.CucumberRunner.runScenario()'><b>runScenario</b><br>Test class: com.ust.runner.CucumberRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Offer Link Navigation and Content", "Validating the offer link in the Sleepwell website."</td>
+<td></td>
+<td>26</td>
+<td>com.ust.runner.CucumberRunner@f14a7d4</td></tr>
+</table><p>
+</body>
+</html>

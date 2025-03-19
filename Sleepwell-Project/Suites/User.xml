@@ -1,0 +1,9 @@
+<suite name="Suite">
+  <test name="Test">
+	<parameter name="browser" value="chrome" />
+    <classes>
+      <!--<class name="com.ust.testcases.user.LoginTest"/>-->
+      <class name="com.ust.testcases.user.RegistrationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

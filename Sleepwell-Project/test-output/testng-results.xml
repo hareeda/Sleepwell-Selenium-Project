@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="66" passed="64" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-25T22:56:19 IST" name="Suite" finished-at="2024-06-25T23:14:17 IST" duration-ms="1077054">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-06-25T22:56:19 IST" name="Test" finished-at="2024-06-25T23:14:17 IST" duration-ms="1077054">
+      <class name="com.ust.runner.CucumberRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:05:59 IST" name="setUpClass" finished-at="2024-06-25T23:06:00 IST" duration-ms="1058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@8caffbd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:06:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T23:06:37 IST" duration-ms="36785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying that the submit button is disabled if no details are entered."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the call back form filling in saathi page of"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:06:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T23:07:16 IST" duration-ms="38381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying that after entering all details the call back form is submitted successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the call back form filling in saathi page of"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:07:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T23:08:06 IST" duration-ms="50018" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying that after entering all details the call back form is submitted successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the call back form filling in saathi page of"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:08:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T23:08:47 IST" duration-ms="41691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying that after entering all details the call back form is submitted successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the call back form filling in saathi page of"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:08:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T23:09:20 IST" duration-ms="33017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying that the submit button is disabled if no details is entered."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the contact us form filling in saathi page of"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:09:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T23:09:59 IST" duration-ms="38753" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying that after entering all details the form is submitted successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the contact us form filling in saathi page of"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:09:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T23:10:36 IST" duration-ms="37394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying that after entering all details the form is submitted successfully"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the contact us form filling in saathi page of"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:10:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T23:11:11 IST" duration-ms="34945" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the sleepwell mattress store near to the given location"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the find showroom feature in the sleepwell mattress website."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:11:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T23:11:44 IST" duration-ms="32461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verifying that error message is shown if invalid city is given"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the find showroom feature in the sleepwell mattress website."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:11:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T23:12:13 IST" duration-ms="28877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify New Link Navigation and Content"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify clicking New link takes us to new products page."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:12:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T23:12:40 IST" duration-ms="26960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Offer Link Navigation and Content"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Validating the offer link in the Sleepwell website."]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:12:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T23:13:10 IST" duration-ms="30633" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User encounters a server error"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verify appropriate error message for server error"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:13:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T23:13:37 IST" duration-ms="26798" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To verify that user navigates to the warranty policy page on clicking warranty link."]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Verifying the Warranty Link Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:13:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-06-25T23:14:16 IST" duration-ms="39246" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Invalid data displays appropriate error messages"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Warranty Registration"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.ust.runner.CucumberRunner@f14a7d4]" started-at="2024-06-25T23:14:16 IST" name="tearDownClass" finished-at="2024-06-25T23:14:17 IST" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.ust.runner.CucumberRunner -->
+      <class name="com.ust.testcases.general.SocialMediaLinkTest">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.ust.testcases.general.SocialMediaLinkTest@544d57e]" started-at="2024-06-25T23:00:15 IST" name="setDriver" finished-at="2024-06-25T23:00:18 IST" duration-ms="2764" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="verifyFacebookLink()[pri:1, instance:com.ust.testcases.general.SocialMediaLinkTest@544d57e]" started-at="2024-06-25T23:00:18 IST" name="verifyFacebookLink" finished-at="2024-06-25T23:00:41 IST" duration-ms="22425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacebookLink -->
+        <test-method signature="verifyInstagramLink()[pri:2, instance:com.ust.testcases.general.SocialMediaLinkTest@544d57e]" started-at="2024-06-25T23:00:43 IST" name="verifyInstagramLink" finished-at="2024-06-25T23:00:47 IST" duration-ms="4322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInstagramLink -->
+        <test-method signature="verifyYoutubeLink()[pri:3, instance:com.ust.testcases.general.SocialMediaLinkTest@544d57e]" started-at="2024-06-25T23:00:47 IST" name="verifyYoutubeLink" finished-at="2024-06-25T23:00:58 IST" duration-ms="10438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyYoutubeLink -->
+        <test-method signature="verifyTwitterLink()[pri:4, instance:com.ust.testcases.general.SocialMediaLinkTest@544d57e]" started-at="2024-06-25T23:00:58 IST" name="verifyTwitterLink" finished-at="2024-06-25T23:01:03 IST" duration-ms="5126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTwitterLink -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ust.testcases.general.SocialMediaLinkTest@544d57e]" started-at="2024-06-25T23:01:04 IST" name="tearDown" finished-at="2024-06-25T23:01:04 IST" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ust.testcases.general.SocialMediaLinkTest -->
+      <class name="com.ust.testcases.user.RegistrationTest">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.ust.testcases.user.RegistrationTest@6b58b9e9]" started-at="2024-06-25T23:05:28 IST" name="setDriver" finished-at="2024-06-25T23:05:32 IST" duration-ms="3443" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="verifyNavigateToRegistrationPage()[pri:1, instance:com.ust.testcases.user.RegistrationTest@6b58b9e9]" started-at="2024-06-25T23:05:32 IST" name="verifyNavigateToRegistrationPage" finished-at="2024-06-25T23:05:58 IST" duration-ms="26374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigateToRegistrationPage -->
+        <test-method signature="verifyBlankFormSubmission()[pri:2, instance:com.ust.testcases.user.RegistrationTest@6b58b9e9]" started-at="2024-06-25T23:05:58 IST" name="verifyBlankFormSubmission" finished-at="2024-06-25T23:05:58 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBlankFormSubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ust.testcases.user.RegistrationTest@6b58b9e9]" started-at="2024-06-25T23:05:59 IST" name="tearDown" finished-at="2024-06-25T23:05:59 IST" duration-ms="665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ust.testcases.user.RegistrationTest -->
+      <class name="com.ust.testcases.user.LoginTest">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.ust.testcases.user.LoginTest@4a3631f8]" started-at="2024-06-25T23:04:21 IST" name="setDriver" finished-at="2024-06-25T23:04:24 IST" duration-ms="3407" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="verifyNavigateToLoginPage()[pri:1, instance:com.ust.testcases.user.LoginTest@4a3631f8]" started-at="2024-06-25T23:04:24 IST" name="verifyNavigateToLoginPage" finished-at="2024-06-25T23:04:47 IST" duration-ms="22808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigateToLoginPage -->
+        <test-method signature="verifyPositiveLogin(java.lang.String,java.lang.String)[pri:1, instance:com.ust.testcases.user.LoginTest@4a3631f8]" started-at="2024-06-25T23:04:50 IST" name="verifyPositiveLogin" data-provider="getpositivedata" finished-at="2024-06-25T23:04:59 IST" duration-ms="8485" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[snikhilkumar355@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nikhil@22]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPositiveLogin -->
+        <test-method signature="verifyPositiveLogin(java.lang.String,java.lang.String)[pri:1, instance:com.ust.testcases.user.LoginTest@4a3631f8]" started-at="2024-06-25T23:04:59 IST" name="verifyPositiveLogin" data-provider="getpositivedata" finished-at="2024-06-25T23:05:06 IST" duration-ms="7333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[aliya@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aliya1234567891]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPositiveLogin -->
+        <test-method signature="verifyPositiveLogin(java.lang.String,java.lang.String)[pri:1, instance:com.ust.testcases.user.LoginTest@4a3631f8]" started-at="2024-06-25T23:05:07 IST" name="verifyPositiveLogin" data-provider="getpositivedata" finished-at="2024-06-25T23:05:14 IST" duration-ms="6975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[alinass@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hareeda@1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPositiveLogin -->
+        <test-method signature="verifyNegativeLogin(java.lang.String,java.lang.String)[pri:2, instance:com.ust.testcases.user.LoginTest@4a3631f8]" started-at="2024-06-25T23:05:14 IST" name="verifyNegativeLogin" data-provider="getnegativedata" finished-at="2024-06-25T23:05:17 IST" duration-ms="2936" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suresh@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Suresh@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNegativeLogin -->
+        <test-method signature="verifyNegativeLogin(java.lang.String,java.lang.String)[pri:2, instance:com.ust.testcases.user.LoginTest@4a3631f8]" started-at="2024-06-25T23:05:18 IST" name="verifyNegativeLogin" data-provider="getnegativedata" finished-at="2024-06-25T23:05:20 IST" duration-ms="2616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nikhil123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nikhil@12345678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNegativeLogin -->
+        <test-method signature="verifyNegativeLogin(java.lang.String,java.lang.String)[pri:2, instance:com.ust.testcases.user.LoginTest@4a3631f8]" started-at="2024-06-25T23:05:21 IST" name="verifyNegativeLogin" data-provider="getnegativedata" finished-at="2024-06-25T23:05:23 IST" duration-ms="2164" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[jack@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jacksss@1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNegativeLogin -->
+        <test-method signature="guestLogin()[pri:4, instance:com.ust.testcases.user.LoginTest@4a3631f8]" started-at="2024-06-25T23:05:24 IST" name="guestLogin" finished-at="2024-06-25T23:05:27 IST" duration-ms="3298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- guestLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ust.testcases.user.LoginTest@4a3631f8]" started-at="2024-06-25T23:05:27 IST" name="tearDown" finished-at="2024-06-25T23:05:28 IST" duration-ms="756" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ust.testcases.user.LoginTest -->
+      <class name="com.ust.testcases.general.SearchTest">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.ust.testcases.general.SearchTest@1787bc24]" started-at="2024-06-25T22:59:44 IST" name="setDriver" finished-at="2024-06-25T22:59:46 IST" duration-ms="2918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="verifyBlankSearch()[pri:1, instance:com.ust.testcases.general.SearchTest@1787bc24]" started-at="2024-06-25T22:59:46 IST" name="verifyBlankSearch" finished-at="2024-06-25T23:00:07 IST" duration-ms="20872" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBlankSearch -->
+        <test-method signature="verifySearchResult()[pri:2, instance:com.ust.testcases.general.SearchTest@1787bc24]" started-at="2024-06-25T23:00:08 IST" name="verifySearchResult" finished-at="2024-06-25T23:00:11 IST" duration-ms="2839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResult -->
+        <test-method signature="verifyPartialMatchSearchResult()[pri:3, instance:com.ust.testcases.general.SearchTest@1787bc24]" started-at="2024-06-25T23:00:11 IST" name="verifyPartialMatchSearchResult" finished-at="2024-06-25T23:00:15 IST" duration-ms="3671" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPartialMatchSearchResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ust.testcases.general.SearchTest@1787bc24]" started-at="2024-06-25T23:00:15 IST" name="tearDown" finished-at="2024-06-25T23:00:15 IST" duration-ms="642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ust.testcases.general.SearchTest -->
+      <class name="com.ust.testcases.dropdown.MattressDropDownTest">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.ust.testcases.dropdown.MattressDropDownTest@43599640]" started-at="2024-06-25T22:56:59 IST" name="setDriver" finished-at="2024-06-25T22:57:02 IST" duration-ms="2742" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="verifyMattressDropdownClicking()[pri:1, instance:com.ust.testcases.dropdown.MattressDropDownTest@43599640]" started-at="2024-06-25T22:57:02 IST" name="verifyMattressDropdownClicking" finished-at="2024-06-25T22:57:21 IST" duration-ms="19867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMattressDropdownClicking -->
+        <test-method signature="verifyLinksUnderShopByNeed()[pri:2, instance:com.ust.testcases.dropdown.MattressDropDownTest@43599640]" started-at="2024-06-25T22:57:22 IST" name="verifyLinksUnderShopByNeed" finished-at="2024-06-25T22:57:22 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinksUnderShopByNeed -->
+        <test-method signature="verifyLinksUnderShopByUser()[pri:3, instance:com.ust.testcases.dropdown.MattressDropDownTest@43599640]" started-at="2024-06-25T22:57:23 IST" name="verifyLinksUnderShopByUser" finished-at="2024-06-25T22:57:23 IST" duration-ms="299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinksUnderShopByUser -->
+        <test-method signature="verifyLinksUnderShopByTech()[pri:4, instance:com.ust.testcases.dropdown.MattressDropDownTest@43599640]" started-at="2024-06-25T22:57:23 IST" name="verifyLinksUnderShopByTech" finished-at="2024-06-25T22:57:23 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinksUnderShopByTech -->
+        <test-method signature="verifyMattressDropdownShopByPrice()[pri:5, instance:com.ust.testcases.dropdown.MattressDropDownTest@43599640]" started-at="2024-06-25T22:57:23 IST" name="verifyMattressDropdownShopByPrice" finished-at="2024-06-25T22:57:24 IST" duration-ms="208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMattressDropdownShopByPrice -->
+        <test-method signature="verifyMattressDropdownShopBySize()[pri:6, instance:com.ust.testcases.dropdown.MattressDropDownTest@43599640]" started-at="2024-06-25T22:57:24 IST" name="verifyMattressDropdownShopBySize" finished-at="2024-06-25T22:57:24 IST" duration-ms="252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMattressDropdownShopBySize -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ust.testcases.dropdown.MattressDropDownTest@43599640]" started-at="2024-06-25T22:57:24 IST" name="tearDown" finished-at="2024-06-25T22:57:25 IST" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ust.testcases.dropdown.MattressDropDownTest -->
+      <class name="com.ust.testcases.mattresses.MattressCompareTest">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.ust.testcases.mattresses.MattressCompareTest@53b7f657]" started-at="2024-06-25T23:01:42 IST" name="setDriver" finished-at="2024-06-25T23:01:46 IST" duration-ms="3401" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="navigateToMattressComparisonPage()[pri:1, instance:com.ust.testcases.mattresses.MattressCompareTest@53b7f657]" started-at="2024-06-25T23:01:46 IST" name="navigateToMattressComparisonPage" finished-at="2024-06-25T23:02:07 IST" duration-ms="21637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToMattressComparisonPage -->
+        <test-method signature="verifySelectingMattresses1()[pri:2, instance:com.ust.testcases.mattresses.MattressCompareTest@53b7f657]" started-at="2024-06-25T23:02:08 IST" name="verifySelectingMattresses1" finished-at="2024-06-25T23:02:11 IST" duration-ms="3534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectingMattresses1 -->
+        <test-method signature="verifySelectingMattresses2()[pri:2, instance:com.ust.testcases.mattresses.MattressCompareTest@53b7f657]" started-at="2024-06-25T23:02:12 IST" name="verifySelectingMattresses2" finished-at="2024-06-25T23:02:16 IST" duration-ms="4737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectingMattresses2 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ust.testcases.mattresses.MattressCompareTest@53b7f657]" started-at="2024-06-25T23:02:17 IST" name="tearDown" finished-at="2024-06-25T23:02:18 IST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ust.testcases.mattresses.MattressCompareTest -->
+      <class name="com.ust.testcases.general.CartTest">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.ust.testcases.general.CartTest@1863d2fe]" started-at="2024-06-25T22:58:25 IST" name="setDriver" finished-at="2024-06-25T22:58:28 IST" duration-ms="3017" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="navigateToReversibleMattressPage()[pri:1, instance:com.ust.testcases.general.CartTest@1863d2fe]" started-at="2024-06-25T22:58:28 IST" name="navigateToReversibleMattressPage" finished-at="2024-06-25T22:58:50 IST" duration-ms="22425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToReversibleMattressPage -->
+        <test-method signature="verifyProductAdding()[pri:2, instance:com.ust.testcases.general.CartTest@1863d2fe]" started-at="2024-06-25T22:58:51 IST" name="verifyProductAdding" finished-at="2024-06-25T22:59:08 IST" duration-ms="17351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductAdding -->
+        <test-method signature="verifyNavigatetoCartPage()[pri:3, instance:com.ust.testcases.general.CartTest@1863d2fe]" started-at="2024-06-25T22:59:09 IST" name="verifyNavigatetoCartPage" finished-at="2024-06-25T22:59:13 IST" duration-ms="3752" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigatetoCartPage -->
+        <test-method signature="verifyDeletingProductFromCart()[pri:4, instance:com.ust.testcases.general.CartTest@1863d2fe]" started-at="2024-06-25T22:59:13 IST" name="verifyDeletingProductFromCart" finished-at="2024-06-25T22:59:34 IST" duration-ms="20759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeletingProductFromCart -->
+        <test-method signature="verifyAddingandRemovingQuantityofSelected()[pri:5, instance:com.ust.testcases.general.CartTest@1863d2fe]" started-at="2024-06-25T22:59:34 IST" name="verifyAddingandRemovingQuantityofSelected" finished-at="2024-06-25T22:59:38 IST" duration-ms="4244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddingandRemovingQuantityofSelected -->
+        <test-method signature="verifyNavigatetoCheckoutPage()[pri:6, instance:com.ust.testcases.general.CartTest@1863d2fe]" started-at="2024-06-25T22:59:39 IST" name="verifyNavigatetoCheckoutPage" finished-at="2024-06-25T22:59:43 IST" duration-ms="4105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigatetoCheckoutPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ust.testcases.general.CartTest@1863d2fe]" started-at="2024-06-25T22:59:43 IST" name="tearDown" finished-at="2024-06-25T22:59:44 IST" duration-ms="659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ust.testcases.general.CartTest -->
+      <class name="com.ust.testcases.mattresses.MattressFilterTest">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.ust.testcases.mattresses.MattressFilterTest@797b0699]" started-at="2024-06-25T23:02:18 IST" name="setDriver" finished-at="2024-06-25T23:02:21 IST" duration-ms="3204" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="verifyNeedBased()[pri:1, instance:com.ust.testcases.mattresses.MattressFilterTest@797b0699]" started-at="2024-06-25T23:02:21 IST" name="verifyNeedBased" finished-at="2024-06-25T23:02:46 IST" duration-ms="25222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNeedBased -->
+        <test-method signature="verifyUserBased()[pri:2, instance:com.ust.testcases.mattresses.MattressFilterTest@797b0699]" started-at="2024-06-25T23:02:47 IST" name="verifyUserBased" finished-at="2024-06-25T23:02:53 IST" duration-ms="6402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserBased -->
+        <test-method signature="verifyTechBased()[pri:3, instance:com.ust.testcases.mattresses.MattressFilterTest@797b0699]" started-at="2024-06-25T23:02:54 IST" name="verifyTechBased" finished-at="2024-06-25T23:03:01 IST" duration-ms="7104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTechBased -->
+        <test-method signature="verifyPriceBased()[pri:4, instance:com.ust.testcases.mattresses.MattressFilterTest@797b0699]" started-at="2024-06-25T23:03:01 IST" name="verifyPriceBased" finished-at="2024-06-25T23:03:08 IST" duration-ms="7046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPriceBased -->
+        <test-method signature="verifySizeBased()[pri:5, instance:com.ust.testcases.mattresses.MattressFilterTest@797b0699]" started-at="2024-06-25T23:03:09 IST" name="verifySizeBased" finished-at="2024-06-25T23:03:19 IST" duration-ms="10057" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySizeBased -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ust.testcases.mattresses.MattressFilterTest@797b0699]" started-at="2024-06-25T23:03:20 IST" name="tearDown" finished-at="2024-06-25T23:03:20 IST" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ust.testcases.mattresses.MattressFilterTest -->
+      <class name="com.ust.testcases.navigation.PillowsTest">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.ust.testcases.navigation.PillowsTest@5a37d3ed]" started-at="2024-06-25T23:03:20 IST" name="setDriver" finished-at="2024-06-25T23:03:24 IST" duration-ms="3281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="verifyNavigateToPillowsPage()[pri:1, instance:com.ust.testcases.navigation.PillowsTest@5a37d3ed]" started-at="2024-06-25T23:03:24 IST" name="verifyNavigateToPillowsPage" finished-at="2024-06-25T23:03:47 IST" duration-ms="22941" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigateToPillowsPage -->
+        <test-method signature="verifyFibrePillowsButton()[pri:2, instance:com.ust.testcases.navigation.PillowsTest@5a37d3ed]" started-at="2024-06-25T23:03:48 IST" name="verifyFibrePillowsButton" finished-at="2024-06-25T23:03:49 IST" duration-ms="1679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFibrePillowsButton -->
+        <test-method signature="verifyRegularTechPillowsButton()[pri:3, instance:com.ust.testcases.navigation.PillowsTest@5a37d3ed]" started-at="2024-06-25T23:03:50 IST" name="verifyRegularTechPillowsButton" finished-at="2024-06-25T23:03:51 IST" duration-ms="1087" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.ust.testcases.navigation.PillowsTest.verifyRegularTechPillowsButton(PillowsTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRegularTechPillowsButton -->
+        <test-method signature="verifyContourTechPillowsButton()[pri:4, instance:com.ust.testcases.navigation.PillowsTest@5a37d3ed]" started-at="2024-06-25T23:03:51 IST" name="verifyContourTechPillowsButton" finished-at="2024-06-25T23:03:52 IST" duration-ms="748" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at org.testng.Assert.assertTrue(Assert.java:67)
+at com.ust.testcases.navigation.PillowsTest.verifyContourTechPillowsButton(PillowsTest.java:63)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContourTechPillowsButton -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ust.testcases.navigation.PillowsTest@5a37d3ed]" started-at="2024-06-25T23:03:53 IST" name="tearDown" finished-at="2024-06-25T23:03:53 IST" duration-ms="692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ust.testcases.navigation.PillowsTest -->
+      <class name="com.ust.testcases.general.LocationTest">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.ust.testcases.general.LocationTest@55c53a33]" started-at="2024-06-25T23:01:04 IST" name="setDriver" finished-at="2024-06-25T23:01:08 IST" duration-ms="3116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="verifyEnteringPincodeandSearching()[pri:1, instance:com.ust.testcases.general.LocationTest@55c53a33]" started-at="2024-06-25T23:01:08 IST" name="verifyEnteringPincodeandSearching" finished-at="2024-06-25T23:01:34 IST" duration-ms="25959" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEnteringPincodeandSearching -->
+        <test-method signature="verifySelectingCityandSearching()[pri:2, instance:com.ust.testcases.general.LocationTest@55c53a33]" started-at="2024-06-25T23:01:34 IST" name="verifySelectingCityandSearching" finished-at="2024-06-25T23:01:41 IST" duration-ms="6638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectingCityandSearching -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ust.testcases.general.LocationTest@55c53a33]" started-at="2024-06-25T23:01:41 IST" name="tearDown" finished-at="2024-06-25T23:01:42 IST" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ust.testcases.general.LocationTest -->
+      <class name="com.ust.testcases.dropdown.MyAccountDropDownTest">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.ust.testcases.dropdown.MyAccountDropDownTest@1f81aa00]" started-at="2024-06-25T22:57:25 IST" name="setDriver" finished-at="2024-06-25T22:57:28 IST" duration-ms="2783" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="verifyMyAccountDropdownClicking()[pri:1, instance:com.ust.testcases.dropdown.MyAccountDropDownTest@1f81aa00]" started-at="2024-06-25T22:57:28 IST" name="verifyMyAccountDropdownClicking" finished-at="2024-06-25T22:57:48 IST" duration-ms="19821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyAccountDropdownClicking -->
+        <test-method signature="verifyLinksUnderMyAccount()[pri:2, instance:com.ust.testcases.dropdown.MyAccountDropDownTest@1f81aa00]" started-at="2024-06-25T22:57:48 IST" name="verifyLinksUnderMyAccount" finished-at="2024-06-25T22:57:48 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLinksUnderMyAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ust.testcases.dropdown.MyAccountDropDownTest@1f81aa00]" started-at="2024-06-25T22:57:49 IST" name="tearDown" finished-at="2024-06-25T22:57:49 IST" duration-ms="562" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ust.testcases.dropdown.MyAccountDropDownTest -->
+      <class name="com.ust.testcases.navigation.FaqTest">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.ust.testcases.navigation.FaqTest@26df6e3a]" started-at="2024-06-25T23:03:53 IST" name="setDriver" finished-at="2024-06-25T23:03:57 IST" duration-ms="3380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="verifyNavigateToFAQ()[pri:1, instance:com.ust.testcases.navigation.FaqTest@26df6e3a]" started-at="2024-06-25T23:03:57 IST" name="verifyNavigateToFAQ" finished-at="2024-06-25T23:04:19 IST" duration-ms="22530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigateToFAQ -->
+        <test-method signature="verifyFaqWelcomeText()[pri:2, instance:com.ust.testcases.navigation.FaqTest@26df6e3a]" started-at="2024-06-25T23:04:20 IST" name="verifyFaqWelcomeText" finished-at="2024-06-25T23:04:20 IST" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFaqWelcomeText -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ust.testcases.navigation.FaqTest@26df6e3a]" started-at="2024-06-25T23:04:20 IST" name="tearDown" finished-at="2024-06-25T23:04:21 IST" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ust.testcases.navigation.FaqTest -->
+      <class name="com.ust.testcases.account.MyProfileTest">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.ust.testcases.account.MyProfileTest@7b7fdc8]" started-at="2024-06-25T22:56:20 IST" name="setDriver" finished-at="2024-06-25T22:56:23 IST" duration-ms="3609" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="verifyMyProfile()[pri:1, instance:com.ust.testcases.account.MyProfileTest@7b7fdc8]" started-at="2024-06-25T22:56:23 IST" name="verifyMyProfile" finished-at="2024-06-25T22:56:54 IST" duration-ms="30368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyProfile -->
+        <test-method signature="verifyMyProfileLoggedIn()[pri:2, instance:com.ust.testcases.account.MyProfileTest@7b7fdc8]" started-at="2024-06-25T22:56:54 IST" name="verifyMyProfileLoggedIn" finished-at="2024-06-25T22:56:58 IST" duration-ms="3341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyProfileLoggedIn -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ust.testcases.account.MyProfileTest@7b7fdc8]" started-at="2024-06-25T22:56:58 IST" name="tearDown" finished-at="2024-06-25T22:56:59 IST" duration-ms="695" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ust.testcases.account.MyProfileTest -->
+      <class name="com.ust.testcases.forms.InstitutionalEnquiryTest">
+        <test-method is-config="true" signature="setDriver(java.lang.String)[pri:0, instance:com.ust.testcases.forms.InstitutionalEnquiryTest@6b6776cb]" started-at="2024-06-25T22:57:49 IST" name="setDriver" finished-at="2024-06-25T22:57:52 IST" duration-ms="2791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method signature="verifyNavigatetoForm()[pri:1, instance:com.ust.testcases.forms.InstitutionalEnquiryTest@6b6776cb]" started-at="2024-06-25T22:57:52 IST" name="verifyNavigatetoForm" finished-at="2024-06-25T22:58:16 IST" duration-ms="23660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNavigatetoForm -->
+        <test-method signature="verifyBlankForm()[pri:2, instance:com.ust.testcases.forms.InstitutionalEnquiryTest@6b6776cb]" started-at="2024-06-25T22:58:16 IST" name="verifyBlankForm" finished-at="2024-06-25T22:58:17 IST" duration-ms="682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBlankForm -->
+        <test-method signature="verifyInstitutionalFormSubmission()[pri:3, instance:com.ust.testcases.forms.InstitutionalEnquiryTest@6b6776cb]" started-at="2024-06-25T22:58:17 IST" name="verifyInstitutionalFormSubmission" finished-at="2024-06-25T22:58:24 IST" duration-ms="7020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInstitutionalFormSubmission -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ust.testcases.forms.InstitutionalEnquiryTest@6b6776cb]" started-at="2024-06-25T22:58:24 IST" name="tearDown" finished-at="2024-06-25T22:58:25 IST" duration-ms="602" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ust.testcases.forms.InstitutionalEnquiryTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

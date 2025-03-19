@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite">
+  <test name="Test">
+	<parameter name="browser" value="chrome" />
+    <classes>	
+      <class name="com.ust.testcases.account.MyProfileTest"/>    
+	  <class name="com.ust.testcases.dropdown.MattressDropDownTest"/>
+	  <class name="com.ust.testcases.dropdown.MyAccountDropDownTest"/>    
+      <class name="com.ust.testcases.forms.InstitutionalEnquiryTest"/>  
+	  <class name="com.ust.testcases.general.CartTest"/>
+      <class name="com.ust.testcases.general.SearchTest"/>
+      <class name="com.ust.testcases.general.SocialMediaLinkTest"/>
+      <class name="com.ust.testcases.general.LocationTest"/>      
+      <class name="com.ust.testcases.mattresses.MattressCompareTest"/>
+      <class name="com.ust.testcases.mattresses.MattressFilterTest"/> 
+	  <class name="com.ust.testcases.navigation.PillowsTest"/>
+      <class name="com.ust.testcases.navigation.FaqTest"/>
+      <class name="com.ust.testcases.user.LoginTest"/>
+      <class name="com.ust.testcases.user.RegistrationTest"/>    
+	  <class name="com.ust.runner.CucumberRunner"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
