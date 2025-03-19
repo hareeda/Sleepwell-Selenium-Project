@@ -10,35 +10,16 @@ Maven Project Setup for dependency management.
 Excel-based Data-Driven Testing using Apache POI.
 Logging and Reporting using Extent Reports.
 
-Project Structure
-Sleepwell-Project
-│── src
-│   ├── main
-│   │   ├── java
-│   │   │   ├── com.ust.base               # Core framework setup
-│   │   │   │   ├── Path.java
-│   │   │   │   ├── PropertyLoader.java
-│   │   │   │   ├── Settings.java
-│   │   │   ├── com.ust.executil           # Utility classes
-│   │   │   │   ├── ExcelReader.java
-│   │   │   ├── com.ust.popages            # Page Object Model (POM) classes
-│   │   │   ├── com.ust.reportutil         # Reporting utilities
-│   │   │   │   ├── ReportsManager.java
-│   │   │   ├── com.ust.reusable           # Reusable methods
-│   │   │   │   ├── ReusableMethods.java
-│   │   ├── resources
-│   │   │   ├── object.properties          # Properties file for element locators
-│   │   │   ├── dataset.xlsx               # Test data for data-driven testing
-│   ├── test
-│   │   ├── java
-│   │   │   ├── com.ust.testcases          # Test case implementations
-│   │   │   ├── com.ust.listener           # TestNG Listeners
-│   │   │   │   ├── TestListener.java
-│   │   ├── resources
-│   │   │   ├── test-output                # Test reports
-│   ├── pom.xml                            # Maven configuration file
-│   ├── testng.xml                         # TestNG suite configuration
-│   ├── README.md                          # Project documentation
+Key Components:
+Base Package (com.ust.base) – Contains core framework setup, including configurations and property loaders.
+Utility Package (com.ust.executil) – Houses utility classes such as ExcelReader for handling test data.
+POM Classes (com.ust.popages) – Separate classes for each web page, encapsulating locators and methods.
+Reporting (com.ust.reportutil) – Manages test execution reports with ReportsManager.
+Reusable Components (com.ust.reusable) – Contains reusable functions to avoid code duplication.
+Test Cases (com.ust.testcases) – Implements automated test scripts using TestNG.
+Listeners (com.ust.listener) – Handles TestNG listeners for reporting and logging.
+Resource Files (resources) – Stores properties files for element locators and Excel files for data-driven testing.
+Maven & TestNG (pom.xml, testng.xml) – Maven for dependency management and TestNG for test execution.
 
 Setup Instructions
 Prerequisites
