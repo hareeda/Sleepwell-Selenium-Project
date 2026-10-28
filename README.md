@@ -54,5 +54,5 @@ GitHub for Version Control
 Contributors
 👤 Hareeda M S
 📧 hareeda33@gmail.com
-🔗 https://linkedin.com/in/hareeda-suresh
+🔗 https://linkedin.com/in/hareedasuresh
 
